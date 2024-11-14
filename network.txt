@@ -1,0 +1,21 @@
+mô hình mạng khách - chủ ( client - sever)
+mạng máy tính : LAN (local area network) mạng cục bộ
+              : WAN (wide area network) mạng diện rộng  thực chất là nhiều LAN kết hợp với nhâu
+              : MAN (Metropotitan area network) phạm vi nội bộ thành phố hoặc quốc gia vs triều tiên
+ TCP/IP
+giao thức _ protocal
+ - TCP 
+ - UDP - DNS
+ - HTTP
+ - FTP
+ - SMTP
+ - SSH
+
+
+ - IP (internet protocol)  IP address có 2 dạng  -32 bits  IP V4
+                                                 -128 bits  IP V6
+
+
+
+cmd : netstat -a để chek ngta dùng tcp hay Udp
+cmd : nslookup  : nhập tên miền vào sẽ ra IP

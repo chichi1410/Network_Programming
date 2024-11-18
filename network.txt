@@ -14,9 +14,11 @@ giao thức _ protocal
 
  - IP (internet protocol)  IP address có 2 dạng  -32 bits  IP V4
                                                  -128 bits  IP V6
-dự án project tra cuu IP nslookup
+Stream : luồngư
+dự án project tra cuu IP nslookupq
 
 
 
 cmd : netstat -a để chek ngta dùng tcp hay Udp
 cmd : nslookup  : nhập tên miền vào sẽ ra IP
+//

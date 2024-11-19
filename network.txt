@@ -18,8 +18,8 @@ Stream : luồng
 Multi threading  
 vấn đề gặp ở đây là code chạy từ trên xuống theo trình tự
 nếu chạy quá dài thì sẽ xử lý rất lâu nên cần đa luồng để xử lý cùng 1 lúc
-quan trọng vì ko thể nào chương trình luôn chạy từ trên xuống dưới vì có những
-th chờ rất lâu để đến turn
+ ko thể nào chương trình luôn chạy từ trên xuống dưới vì có những
+th chờ rất lâu để đến turn nên cần phải sử dụng đa luống thread
  xu ly  nhieu luong cung 1 luc (Multi threading)
  
 thread : đây là 1 class chúng ta có thể kế thừa

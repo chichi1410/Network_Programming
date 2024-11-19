@@ -27,7 +27,7 @@ public class Library {
             if(book.getTitle().equalsIgnoreCase(title)){
                 if(book.isAvailable()){
                     book.setAvailable(false);
-                    System.out.println(ID + ": da cho muon sach :" +title);
+                    System.out.println("ID: "+ID + " da cho muon sach :" +title);
                     return;
                 }
             }
@@ -40,7 +40,7 @@ public class Library {
             if(book.getTitle().equalsIgnoreCase(title)){
                 if(!book.isAvailable()){
                     book.setAvailable(true);
-                    System.out.println(ID + " : da tra sach :" +title);
+                    System.out.println("ID :"+ID + " da tra sach :" +title);
                     return;
                 }
             }

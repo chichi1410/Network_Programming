@@ -11,7 +11,7 @@ package Bai_10_LibraryMannagement_multiThreading;
 public class Main_10 {
 
     public static void main(String[] args) {
-        Library l = new Library();
+        Library l = new Library(); 
         l.addBook(new Book("tam quoc chi", "la quan trung", true));
         l.addBook(new Book("tay du ky", "ngo thua an", true));
         l.addBook(new Book("hong lau mong", "tau tuyet can", true));

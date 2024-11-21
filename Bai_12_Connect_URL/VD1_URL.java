@@ -16,7 +16,7 @@ public class VD1_URL {
     public static void main(String[] args) {
         try {
             // tao doi tuong URL
-            String URLString = "https://github.com/chichi1410";
+            String URLString = "https://www.facebook.com/";
             URL url = new URL(URLString);
             
             // doc du lieu

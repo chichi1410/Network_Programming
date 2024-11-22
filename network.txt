@@ -33,3 +33,4 @@ dự án project tra cuu IP nslookupq
 cmd : netstat -a để chek ngta dùng tcp hay Udp
 cmd : nslookup  : nhập tên miền vào sẽ ra IP
 // InetAddress
+//

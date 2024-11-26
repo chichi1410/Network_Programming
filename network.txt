@@ -39,4 +39,5 @@ cmd : nslookup  : nhập tên miền vào sẽ ra IP
 dieu khien may tinh cmd
 shutdown -r -t 3600 // -r : restart
 shutdown -s -t 100  // -s shutdown
+shutdown -a // huy tat ca cac lenh tren 
  

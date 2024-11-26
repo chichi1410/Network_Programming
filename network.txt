@@ -35,3 +35,8 @@ cmd : nslookup  : nhập tên miền vào sẽ ra IP
 // InetAddress
 // bai 13 chat sever vs client
 // bai 14 chat rom client vs client //
+
+dieu khien may tinh cmd
+shutdown -r -t 3600 // -r : restart
+shutdown -s -t 100  // -s shutdown
+ 

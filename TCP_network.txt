@@ -32,6 +32,7 @@ dự án project tra cuu IP nslookupq
 
 cmd : netstat -a để chek ngta dùng tcp hay Udp
 cmd : nslookup  : nhập tên miền vào sẽ ra IP
+cmd : arp -a : check xem bao nhiêu người đang sài mạng lan
 // InetAddress
 // bai 13 chat sever vs client
 // bai 14 chat rom client vs client //
@@ -40,4 +41,7 @@ dieu khien may tinh cmd
 shutdown -r -t 3600 // -r : restart
 shutdown -s -t 100  // -s shutdown
 shutdown -a // huy tat ca cac lenh tren 
+
+
+
  

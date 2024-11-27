@@ -1,0 +1,31 @@
+giao thức UDP
+các thuật ngữ quan trọng
+  - packet : là 1 dãy số nhị phân , biểu diễn cho dữ liệu , tín hiệu điều khiển , được 
+chuyển đến các host thông tin dc sắp xếp theo 1 khuôn dạng cụ thể
+  - datagram : là 1 gói tin độc lập , tự chứa , mang đầy đủ dữ liệu từ nguồn đến đích
+  - MTU (Maximum transmission unit) mô tả số byte tối da có thể truyền trong trong 1 gói
+tin
+  - Port : Cổng , để ánh xạ dữ liệu đến 1 tiến trình cụ thể nào đó  port : 0 -> 65535
+  - TTL (time to live) : thiết lập 1 giới hạn lên các router mà một dataram có thể đi qua
+   vd(nếu dữ liệu ko thể đến đích mà bị mắt kẹt ở đâu đó thì kéo theo những dữ liệu phía 
+sau cũng bị kẹt như kẹt xe , phải quy định thời gian huỷ giói tin đó để tránh ùn tắt)
+  -- Multicasting : truyền tin theo kiểu 1 - nhiều "nó gủi tin cho một số thèn cụ thể mà đã connect đến"
+  -- broadcast  : gửi đại
+
+Ưu điểm UDP
+  - giao thức phi liên kết
+  - tốc độ nhanh
+Nhược điểm
+  - thiếu thao tác bắt tay
+  - ko hỗ trợ session
+  - độ tin cậy thấp hơn
+  - ko dảm bảo tất cả dữ liệu bạn gửi sẽ đến đích , nó có  thể bị rớt hoặc mất giói tin
+  - bảo mật thấp "dễ bị hacker tấn công"
+  - UDP ko có kiểm soát luồng;
+
+
+
+
+
+
+// cmd : arp -a : check xem bao nhiêu người đang sài mạng lan

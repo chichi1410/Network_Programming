@@ -23,6 +23,11 @@ Nhược điểm
   - bảo mật thấp "dễ bị hacker tấn công"
   - UDP ko có kiểm soát luồng;
 
+Khi nào cần dùng
+  - điều khiển máy tính : TCP - UDP
+  - xem màn hình : UDP
+  - gửi file : TCP
+
 
 
 

@@ -28,7 +28,7 @@ Khi nào cần dùng
   - xem màn hình : UDP
   - gửi file : TCP
 
-
+Bai _ 16 lập trình gửi tin bằng UDP
 
 
 

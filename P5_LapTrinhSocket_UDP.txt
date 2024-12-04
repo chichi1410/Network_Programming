@@ -28,10 +28,21 @@ Khi nào cần dùng
   - xem màn hình : UDP
   - gửi file : TCP
 
+
 Bai _ 16 lập trình gửi tin bằng UDP
+ -- // datagramsocket được sử dụng để gửi và nhận các gói dữ liệu day la giao thuc DNS 
+Các mục đích chính của DatagramPacket trong Java:
+Gửi dữ liệu UDP: DatagramPacket chứa dữ liệu bạn muốn gửi qua một DatagramSocket.
+Nhận dữ liệu UDP: DatagramPacket cũng có thể chứa dữ liệu mà bạn nhận được qua một DatagramSocket.
+Quản lý thông tin địa chỉ: Một gói dữ liệu DatagramPacket có thể chứa thông tin về 
+địa chỉ máy chủ và cổng (port) để gửi hoặc nhận gói tin từ đó.
+
+Bai_17 lập trình giả lập hệ thống phân giải tên miền dựa trên giao thức  DNS
+   có sử dụng UDP trong bài tập này
+
 
 
 
 
 // cmd : arp -a : check xem bao nhiêu người đang sài mạng lan
-////
+

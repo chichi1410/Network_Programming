@@ -46,3 +46,5 @@ Bai_17 lập trình giả lập hệ thống phân giải tên miền dựa trê
 
 // cmd : arp -a : check xem bao nhiêu người đang sài mạng lan
 
+// update ngay 9/12
+

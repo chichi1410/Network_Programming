@@ -49,5 +49,8 @@ dấu nhắc shell -$ và -#
 -# : dùng cho tài khoản mạnh nhất toàn quyền cao nhất (root)
 
 câu lệnh terminal
-sudo passwd root
+- udo passwd root
+- pwd (print working directory)  : hien thi vi tri lam viec hien tai
+- cd ..  : lui 1
+sudo
  

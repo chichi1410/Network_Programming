@@ -23,3 +23,31 @@ phương thức truyền thông dữ liệu gửi đến một số thiết bị
 
 
 định tuyến Multicast :
+
+
+
+hệ điều hanh gồm các phần chính
+chia thành 3 phần ( kernal , shell , aplication)
+kernal : nhân 
+- quản lý tài nguyên phần cứng
+- hỗ trợ hệ thống tệp
+- quản lý tiến trình
+- hỗ trợ giao tiếp vầ mạng
+- bảo mật
+
+phía bênh trên kernal 
+shell
+shell là một chương trình 
+có chức năng thực thi các câu lệnh từ người dùng hoặc ứng dụng
+shell có khả năng bảo vệ kernal từ các yêu cầu không hợp lệ
+co nhiều loại shell nhưng nổi tiếng nhất là bash
+
+tầng ngoài cùng  : application
+
+dấu nhắc shell -$ và -#
+-$ : dùng cho người dùng bình thường 
+-# : dùng cho tài khoản mạnh nhất toàn quyền cao nhất (root)
+
+câu lệnh terminal
+sudo passwd root
+ 

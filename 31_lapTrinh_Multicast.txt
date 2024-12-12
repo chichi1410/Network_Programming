@@ -15,7 +15,7 @@ CMD : arp -a ; xác định mạng lan có bao nhiêu ip hoạt động
 phương thức truyền thông dữ liệu gửi đến một số thiết bị đã được xác định trc 
  VD : tham gia học trực tuyến 50 người mà chỉ có 30 người xác nhận học
 
-địa chỉ multicast : (là 1 địa chỉ IP ) được sử dụng để thực hiện giao tiếp Multicast
+địa chỉ multicast : (là 1 địa chỉ IP ) được sử dụng để thực hiện giao tiếp Multicast đây là phương thức được sử dụng chính
  VD : một số ip thường gặp : 
 224.0.0.1  : all host (được sử dụng để gửi giói tin cho tất cả các máy tính)
 224.0.0.2  : được sử dụng để gửi đến tất cả các router

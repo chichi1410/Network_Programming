@@ -23,3 +23,6 @@ phương thức truyền thông dữ liệu gửi đến một số thiết bị
 
 
 định tuyến Multicast :
+
+
+bai 18 : thực hành gửi tin sender vs receiver

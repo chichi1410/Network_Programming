@@ -15,7 +15,7 @@ CMD : arp -a ; xác định mạng lan có bao nhiêu ip hoạt động
 phương thức truyền thông dữ liệu gửi đến một số thiết bị đã được xác định trc 
  VD : tham gia học trực tuyến 50 người mà chỉ có 30 người xác nhận học
 
-địa chỉ multicast : (là 1 địa chỉ IP ) được sử dụng để thực hiện giao tiếp Multicast
+địa chỉ multicast : (là 1 địa chỉ IP ) được sử dụng để thực hiện giao tiếp Multicast đây là phương thức được sử dụng chính
  VD : một số ip thường gặp : 
 224.0.0.1  : all host (được sử dụng để gửi giói tin cho tất cả các máy tính)
 224.0.0.2  : được sử dụng để gửi đến tất cả các router
@@ -25,4 +25,36 @@ phương thức truyền thông dữ liệu gửi đến một số thiết bị
 định tuyến Multicast :
 
 
+<<<<<<< HEAD
 bai 18 : thực hành gửi tin sender vs receiver
+=======
+
+hệ điều hanh gồm các phần chính
+chia thành 3 phần ( kernal , shell , aplication)
+kernal : nhân 
+- quản lý tài nguyên phần cứng
+- hỗ trợ hệ thống tệp
+- quản lý tiến trình
+- hỗ trợ giao tiếp vầ mạng
+- bảo mật
+
+phía bênh trên kernal 
+shell
+shell là một chương trình 
+có chức năng thực thi các câu lệnh từ người dùng hoặc ứng dụng
+shell có khả năng bảo vệ kernal từ các yêu cầu không hợp lệ
+co nhiều loại shell nhưng nổi tiếng nhất là bash
+
+tầng ngoài cùng  : application
+
+dấu nhắc shell -$ và -#
+-$ : dùng cho người dùng bình thường 
+-# : dùng cho tài khoản mạnh nhất toàn quyền cao nhất (root)
+
+câu lệnh terminal
+- udo passwd root
+- pwd (print working directory)  : hien thi vi tri lam viec hien tai
+- cd ..  : lui 1
+sudo
+ 
+>>>>>>> 253a8a3fddf20c6617e5d1d02ad860a3fe03c06c

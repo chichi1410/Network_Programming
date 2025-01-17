@@ -1,4 +1,4 @@
-giao thức UDP
+ogiao thức UDP
 các thuật ngữ quan trọng
   - packet : là 1 dãy số nhị phân , biểu diễn cho dữ liệu , tín hiệu điều khiển , được 
 chuyển đến các host thông tin dc sắp xếp theo 1 khuôn dạng cụ thể
@@ -48,3 +48,4 @@ Bai_17 lập trình giả lập hệ thống phân giải tên miền dựa trê
 
 // update ngay 9/12
 
+ko có commit mới
